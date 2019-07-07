@@ -2,7 +2,7 @@
 
 # 1.Data Extraction
 
-This document details all the steps involved in importing all relevant data sets via Exchange rates API and Federal Reserve Bank of of St. Louis API.
+This Python notebook details all the steps involved in importing all relevant data sets via Exchange rates API and Federal Reserve Bank of of St. Louis API.
 
 Target variable: Daily EUR/USD exchange rate
 
@@ -22,7 +22,7 @@ Predictors considered:
 
 # 2.Training Deep Learning Model
 
-This document details all the steps involved in training a neural network ensemble. After some hyperparameter tuning, it has been observed that EUR/USD exchange rate could be most accurately being predicted with an ensemble of 10 neural networks where each neural network contains 2 hidden layers that come with sigmoid activation function whereas the output layer is activated via linear function.
+This Python notebook details all the steps involved in training a neural network ensemble. After some hyperparameter tuning, it has been observed that EUR/USD exchange rate could be most accurately being predicted with an ensemble of 10 neural networks where each neural network contains 2 hidden layers that come with sigmoid activation function whereas the output layer is activated via linear function.
 
 EUR/USD exchange rate would be most accurately predicted with only USD 3M LIBOR and EUR 3M LIBOR as inputs. The reasons for that might be due to the usage of these 2 rates in a lot of derivatives fixing.
 
