@@ -28,4 +28,4 @@ EUR/USD exchange rate would be most accurately predicted with only USD 3M LIBOR 
 
 Model performance:
 
-RMSE: 0.13987 (Around 88 pips difference with the actual exchange rate on average)
+RMSE: 0.13987 (Around 43 pips difference with the actual exchange rate on average)
