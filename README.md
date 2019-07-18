@@ -29,3 +29,17 @@ EUR/USD exchange rate would be most accurately predicted with only USD 3M LIBOR 
 Model performance:
 
 RMSE: 0.13987 (Around 43 pips difference with the actual exchange rate on average)
+
+# 3.Backtest Trading Strategy.
+
+It has been observed that EUR/USD pair is being traded in a highly volatile market and always reverting to a mean value that varies stochastically. After some experimentations, it has been found that the forecasted rates predicted by the trained neural network ensemble consists of the stochastically-varied value that this pair is reverting to, dependent on the EUR 3-Month LIBOR and USD 3-Month LIBOR.
+
+Hence, a mean-reverting strategy could be constructed.
+
+Trading Strategy Overview:
+
+1. Neural network ensemble is used to determine the mean EUR/USD rate with EUR 3-Month LIBOR and USD 3- Month LIBOR as input data.
+
+2. The difference of bid rate and mean rate is computed across time to determine sell trigger while the difference between ask rate and mean rate is computed to determine buy trigger.
+
+3. Buy trigger and sell trigger of various thresholds are experimented in order to determine the optimal threshold that produces greatest returns.
