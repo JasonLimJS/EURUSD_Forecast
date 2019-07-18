@@ -30,7 +30,7 @@ Model performance:
 
 RMSE: 0.13987 (Around 43 pips difference with the actual exchange rate on average)
 
-# 3.Backtest Trading Strategy.
+# 3.Backtest Trading Strategy
 
 It has been observed that EUR/USD pair is being traded in a highly volatile market and always reverting to a mean value that varies stochastically. After some experimentations, it has been found that the forecasted rates predicted by the trained neural network ensemble consists of the stochastically-varied value that this pair is reverting to, dependent on the EUR 3-Month LIBOR and USD 3-Month LIBOR.
 
