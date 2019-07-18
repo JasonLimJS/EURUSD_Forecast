@@ -1,4 +1,4 @@
-# Prediction of EUR/USD with Neural Network Ensemble
+# Trading EUR/USD with Neural Network Ensemble
 
 # 1.Data Extraction
 
